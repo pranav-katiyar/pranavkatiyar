@@ -1,0 +1,17 @@
+.app {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: calc(10px + 2vmin);
+    gap: 10px;
+    background: linear-gradient(135deg, #f1b5e4 0%, #dbeafe 100%);
+    box-sizing: border-box;
+    padding: 10px 0px; 
+}
+
+.app > * {
+     background: rgba(255, 255, 255, 0.6);
+}

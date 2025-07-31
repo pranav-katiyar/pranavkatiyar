@@ -1,0 +1,11 @@
+.informationSection {
+  display: flex;
+  width: 98%;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+}
+
+
+
