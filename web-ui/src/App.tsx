@@ -1,10 +1,11 @@
 // import { useState } from 'react'
 import styles from './App.module.css'
 import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
 import Professional from './features/Professional'
 import Social from './features/Social'
 import Github from './features/Github'
-import Personal from './features/Personal'
+// import Personal from './features/Personal'
 
 
 function App() {
@@ -12,13 +13,14 @@ function App() {
 
   return (
     <>
-    <div className={styles.app}>
+      <div className={styles.app}>
         <Header />
         <Professional />
-        <Social />
         <Github />
-        <Personal />
-    </div>
+        <Social />
+        {/* <Personal /> */}
+        <Footer />
+      </div>
     </>
 
   )

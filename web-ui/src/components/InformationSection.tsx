@@ -1,9 +1,9 @@
-import style from './InformationSection.module.css';
+import defaultStyle from './InformationSection.module.css';
 import '../styles/Common.css'
 
-function InformationSection({ children }: { children: React.ReactNode }) {
+function InformationSection({ children, className }: { children: React.ReactNode, className?: string }) {
     return (
-        <div className={style.informationSection}>
+        <div className={`${defaultStyle.informationSection} ${className}`}>
             {children}
         </div>
     );

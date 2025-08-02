@@ -1,0 +1,71 @@
+.socialContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 24px;
+  margin-top: 24px;
+  width: 50%;
+}
+
+.socialCard {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(13, 110, 253, 0.06);
+  border: 1px solid #e0e0e0;
+  /* padding: 18px 20px; */
+  transition: box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+
+}
+
+.socialLink {
+  text-decoration: none;
+  color: #031b3e;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding-left: 20px;
+  transition: color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.socialLinkIcon {
+  font-size: 28px;
+  min-width: 28px;
+}
+
+.socialLinkText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  margin-left: 8px;
+}
+
+.socialLink:hover {
+  color: #0d6efd;
+  box-shadow: 0 2px 12px rgba(13, 110, 253, 0.12);
+  transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 600px) {
+  .socialCard {
+    width: 98%;
+    max-width: 100%;
+    padding: 14px 10px;
+  }
+  .socialLink {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .socialLinkText {
+    text-align: center;
+    margin-left: 0;
+  }
+}

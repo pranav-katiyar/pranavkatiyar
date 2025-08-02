@@ -1,11 +1,15 @@
 .informationSection {
   display: flex;
   width: 98%;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   flex-direction: column;
   margin: auto;
+  padding-bottom: 20px;
 }
 
+.informationSection > * {
+  margin-left: 5px;
+}
 
 
