@@ -57,4 +57,4 @@ MIT
 
 ---
 
-Made by [Pranav Katiyar](https://github.com/pranav-katiyar)
+Made with ❤️ by [Pranav Katiyar](https://github.com/pranav-katiyar)
